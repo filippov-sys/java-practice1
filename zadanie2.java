@@ -8,7 +8,6 @@ public class zadanie2 {
         int nechetcount = 0;
 
         for (int i= 0; i < numbers.length; i++) {
-            System.out.println(numbers[i] + " ");
             if (numbers[i] % 2 == 0) {
                 sumchet += numbers[i];
             } else {
